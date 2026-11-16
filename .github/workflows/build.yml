@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -o BlazeVisualsClient-1.21.11-v8.zip
+      - run: unzip -o BlazeVisualsClient-1.21.11-v9.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
