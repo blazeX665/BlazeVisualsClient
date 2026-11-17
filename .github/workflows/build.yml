@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -o "*v14.zip"
+      - run: unzip -o "*v15.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
